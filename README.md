@@ -1,6 +1,6 @@
 WebJar for Vue.js
 
-Current version : 1.0.7
+Current version : 1.0.8
 
 More info: http://webjars.org
 
