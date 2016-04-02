@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>vue</artifactId>
-    <version>1.0.20-SNAPSHOT</version>
+    <version>1.0.20</version>
     <name>Vue.js</name>
     <description>WebJar for Vue.js</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/vue</url>
         <connection>scm:git:https://github.com/webjars/vue.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/vue.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>vue-1.0.20</tag>
     </scm>
     
     <build>
@@ -65,10 +65,10 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}"/>
-                                <get src="${upstream.url}/vue.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/vue.min.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/vue.common.js" dest="${destDir}"/>
+                                <mkdir dir="${destDir}" />
+                                <get src="${upstream.url}/vue.js" dest="${destDir}" />
+                                <get src="${upstream.url}/vue.min.js" dest="${destDir}" />
+                                <get src="${upstream.url}/vue.common.js" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
