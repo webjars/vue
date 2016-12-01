@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>vue</artifactId>
-    <version>2.0.1-SNAPSHOT</version>
+    <version>2.1.3-SNAPSHOT</version>
     <name>Vue.js</name>
     <description>WebJar for Vue.js</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>2.0.0</upstream.version>
+        <upstream.version>2.1.3</upstream.version>
         <upstream.url>https://raw.githubusercontent.com/yyx990803/vue/v${upstream.version}/dist</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
@@ -69,6 +69,9 @@
                                 <get src="${upstream.url}/vue.js" dest="${destDir}" />
                                 <get src="${upstream.url}/vue.min.js" dest="${destDir}" />
                                 <get src="${upstream.url}/vue.common.js" dest="${destDir}" />
+                                <get src="${upstream.url}/vue.runtime.common.js" dest="${destDir}" />
+                                <get src="${upstream.url}/vue.runtime.js" dest="${destDir}" />
+                                <get src="${upstream.url}/vue.runtime.min.js" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
