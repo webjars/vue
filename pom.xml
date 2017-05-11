@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>vue</artifactId>
-    <version>1.0.28-SNAPSHOT</version>
+    <version>1.0.28</version>
     <name>Vue.js</name>
     <description>WebJar for Vue.js</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/vue</url>
         <connection>scm:git:https://github.com/webjars/vue.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/vue.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>vue-1.0.28</tag>
     </scm>
     
     <build>
