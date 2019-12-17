@@ -80,6 +80,8 @@
                             <target>
                                 <mkdir dir="${destDir}" />
                                 <get src="${upstream.url}/vue.common.js" dest="${destDir}" />
+                                <get src="${upstream.url}/vue.esm.browser.js" dest="${destDir}" />
+                                <get src="${upstream.url}/vue.esm.browser.min.js" dest="${destDir}" />
                                 <get src="${upstream.url}/vue.esm.js" dest="${destDir}" />
                                 <get src="${upstream.url}/vue.js" dest="${destDir}" />
                                 <get src="${upstream.url}/vue.min.js" dest="${destDir}" />
